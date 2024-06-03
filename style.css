@@ -1,0 +1,80 @@
+
+
+
+.link-hover:hover {
+
+    color: orange;
+  }
+  
+  .bg-header {
+    background-image: linear-gradient(to right, #2e10dd, #e142dc);
+    
+  }
+  
+  .h-10 {
+    height: 500px;
+  }
+  
+  .font-google {
+    font-style: italic;
+  }
+  
+  
+  .border-hover:hover {
+    border-color: yellow;
+  }
+  
+  .footer-bg{
+     background-image: url("./IMAGES/55.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+  }
+  
+  
+  
+  
+  
+  
+  /* Center website */
+  
+  
+  
+  
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    
+  
+    display: none;    /* Hide all elements by default */                             
+  }
+  
+  
+  /* Clear floats after rowss */ 
+  
+  /* Content */
+  .content {
+  
+    padding: 10px;
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .button {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #ddd;
+  }
+  
+  .button.active {
+    background-color: #666;
+  }
